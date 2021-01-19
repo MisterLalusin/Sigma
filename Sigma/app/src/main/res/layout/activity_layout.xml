@@ -1,0 +1,330 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LayoutActivity"
+    android:orientation="vertical"
+    android:background="@android:color/white">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:id="@+id/main_activity">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="#5b9bd5"
+            android:gravity="end"
+            android:paddingEnd="10dp">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:gravity="end">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="John Rovic"
+                    android:textColor="@android:color/white"
+                    android:textSize="18dp"
+                    android:layout_marginEnd="10dp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Lalusin"
+                    android:textColor="@android:color/white"
+                    android:textSize="15dp"
+                    android:layout_marginEnd="10dp"/>
+
+            </LinearLayout>
+
+            <ImageView
+                android:layout_width="42dp"
+                android:layout_height="42dp"
+                android:background="@android:color/white"
+                android:src="@raw/ic_user"/>
+
+        </LinearLayout>
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#f0f0f0"
+            android:paddingHorizontal="22dp"
+            android:paddingTop="18dp"
+            android:scrollbars="none">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:background="@drawable/background_white"
+                    android:layout_marginBottom="12dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="50"
+                            android:gravity="center"
+                            android:textColor="@android:color/black"
+                            android:id="@+id/main_balanceTXTVW"
+                            android:textSize="69dp"/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Pesos"
+                            android:gravity="center"
+                            android:textColor="@android:color/black"
+                            android:textSize="17dp"
+                            android:padding="10dp"/>
+
+                    </LinearLayout>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Balance"
+                        android:gravity="center"
+                        android:textColor="@android:color/white"
+                        android:textSize="17dp"
+                        android:background="@drawable/background_black"/>
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/background_white"
+                    android:layout_marginBottom="12dp"
+                    android:padding="10dp"
+                    android:gravity="center">
+
+                    <LinearLayout
+                        android:layout_width="100dp"
+                        android:layout_height="90dp"
+                        android:orientation="vertical"
+                        android:gravity="center"
+                        android:id="@+id/main_addMoneyLNRLYT">
+
+                        <ImageView
+                            android:layout_width="50dp"
+                            android:layout_height="50dp"
+                            android:layout_marginBottom="6dp"
+                            android:src="@raw/ic_add_money"/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Add Money"
+                            android:textColor="@android:color/black"/>
+
+                    </LinearLayout>
+
+
+                    <LinearLayout
+                        android:layout_width="100dp"
+                        android:layout_height="90dp"
+                        android:orientation="vertical"
+                        android:gravity="center"
+                        android:id="@+id/main_sendMoneyLNRLYT">
+
+                        <ImageView
+                            android:layout_width="50dp"
+                            android:layout_height="50dp"
+                            android:layout_marginBottom="6dp"
+                            android:src="@raw/ic_send_money"/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Send Money"
+                            android:textColor="@android:color/black"/>
+
+                    </LinearLayout>
+
+
+                    <LinearLayout
+                        android:layout_width="100dp"
+                        android:layout_height="90dp"
+                        android:orientation="vertical"
+                        android:gravity="center"
+                        android:id="@+id/main_widthdrawMoneyLNRLYT">
+
+                        <ImageView
+                            android:layout_width="50dp"
+                            android:layout_height="50dp"
+                            android:layout_marginBottom="6dp"
+                            android:src="@raw/ic_withdraw"/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Widthraw"
+                            android:textColor="@android:color/black"/>
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/background_white"
+                android:layout_marginBottom="12dp"
+                android:padding="20dp"
+                android:gravity="center"
+                android:id="@+id/main_notification1LNRLYT">
+
+                <ImageView
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_marginBottom="6dp"
+                    android:src="@raw/ic_notif"
+                    android:layout_marginLeft="10dp"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="[value]"
+                    android:textColor="@android:color/black"
+                    android:layout_margin="10dp"
+                    android:textSize="16dp"
+                    android:id="@+id/main_notification1TXTVW"/>
+
+            </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/background_white"
+                    android:layout_marginBottom="12dp"
+                    android:padding="20dp"
+                    android:gravity="center"
+                    android:id="@+id/main_notification2LNRLYT">
+
+                    <ImageView
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:layout_marginBottom="6dp"
+                        android:src="@raw/ic_notif"
+                        android:layout_marginLeft="10dp"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="[value]"
+                        android:textColor="@android:color/black"
+                        android:layout_margin="10dp"
+                        android:textSize="16dp"
+                        android:id="@+id/main_notification2TXTVW"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/background_white"
+                    android:layout_marginBottom="12dp"
+                    android:padding="20dp"
+                    android:gravity="center"
+                    android:id="@+id/main_notification3LNRLYT">
+
+                    <ImageView
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:layout_marginBottom="6dp"
+                        android:src="@raw/ic_notif"
+                        android:layout_marginLeft="10dp"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="[value]"
+                        android:textColor="@android:color/black"
+                        android:layout_margin="10dp"
+                        android:textSize="16dp"
+                        android:id="@+id/main_notification3TXTVW"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/background_white"
+                    android:layout_marginBottom="12dp"
+                    android:padding="20dp"
+                    android:gravity="center"
+                    android:id="@+id/main_notification4LNRLYT">
+
+                    <ImageView
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:layout_marginBottom="6dp"
+                        android:src="@raw/ic_notif"
+                        android:layout_marginLeft="10dp"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="[value]"
+                        android:textColor="@android:color/black"
+                        android:layout_margin="10dp"
+                        android:textSize="16dp"
+                        android:id="@+id/main_notification4TXTVW"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/background_white"
+                    android:layout_marginBottom="12dp"
+                    android:padding="20dp"
+                    android:gravity="center"
+                    android:id="@+id/main_notification5LNRLYT">
+
+                    <ImageView
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:layout_marginBottom="6dp"
+                        android:src="@raw/ic_notif"
+                        android:layout_marginLeft="10dp"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="[value]"
+                        android:textColor="@android:color/black"
+                        android:layout_margin="10dp"
+                        android:textSize="16dp"
+                        android:id="@+id/main_notification5TXTVW"/>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </ScrollView>
+
+    </LinearLayout>
+
+</LinearLayout>
